@@ -1,0 +1,56 @@
+
+.todo {
+    display:flex;
+    padding: 20px;
+    gap: 20px;
+    margin-top: 20px;
+    min-width: 60vw;
+    max-width: 60vw;
+    height: fit-content;
+    transition: transform 0.3s;
+    border-radius: 20px;
+}
+
+.todo:hover {
+    transform: scale(1.2);
+}
+
+.task-title {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+
+.checkbox {
+    width: 25px;
+    
+}
+
+.urgent {
+    background-color: rgb(255, 184, 184);
+    color: rgb(124, 0, 0)
+}
+
+.not-urgent {
+    background-color: rgb(158, 255, 166);
+    color: rgb(0, 79, 0);
+}
+
+.moderate {
+    background-color: rgb(255, 255, 145);
+    color: rgb(118, 91, 0);
+}
+
+.delete-btn {
+    opacity: 0;
+    border-style: none;
+    background-color: transparent;
+    margin-left: auto;
+    font-size: 25px;
+    
+}
+
+.delete-btn:hover{
+    opacity: 1;
+}

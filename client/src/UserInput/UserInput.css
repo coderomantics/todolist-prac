@@ -1,0 +1,26 @@
+.form {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 400px;
+    height:40px;
+    display: flex
+}
+
+#input {
+    flex-grow: 1;
+    border-radius: 5px;
+}
+
+#add-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(15, 14, 14);
+    color: #fff;
+    padding: 0 20px;
+    font-size: larger;
+}
+
+#priority {
+    border-radius: 5px;
+    font-weight: bold;
+}
